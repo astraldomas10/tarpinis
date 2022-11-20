@@ -1,0 +1,37 @@
+.viskas-2{
+    height: 280px;
+    padding: 100px;
+    background: url(../images/bg-masthead.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
+  
+  }
+  section{
+    h1{
+      text-align: center;
+      color: white;
+      font-size: 30px;
+    }
+    .inputas{
+      text-align: center;
+      margin: 30px;
+      input{
+        height:28px;
+        width: 300px;
+        border-radius: 3px;
+        border: 0px;
+      }
+    } 
+  
+    button{ 
+      color: white;
+      background: #007bff;
+      border: none;
+      border-radius: 3px;
+      padding: 6px 20px;
+  
+    }
+    
+  }

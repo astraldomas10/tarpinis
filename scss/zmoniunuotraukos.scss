@@ -1,0 +1,80 @@
+
+.veidai{
+    padding: 100px;
+    background: #f8f9fa;
+    h2{
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    .zmones{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        div{
+            width: 300px;
+            margin: 20px;
+        }
+        h4{
+            text-align: center;
+            margin: 8px;
+            margin-top: 15px;
+        }
+        p{
+            text-align: center;
+            color: #808285;
+        }
+        .img1{
+            background: url(../images/testimonials-1.jpg);
+            width: 120px;
+            height: 120px;
+            background-size: cover;
+            border-radius: 60px;
+            box-shadow: 50px;
+            margin: auto;
+            box-shadow: 0 5px 7px #afb7bf;
+
+            
+        }
+        .img2{
+            background: url(../images/testimonials-2.jpg);
+            width: 120px;
+            height: 120px;
+            background-size: cover;
+            border-radius: 60px;
+            box-shadow: 50px;
+            margin: auto;
+            box-shadow: 0 5px 7px #afb7bf;
+
+
+            
+        }
+        .img3{
+            background: url(../images/testimonials-3.jpg);
+            width: 120px;
+            height: 120px;
+            background-size: cover;
+            border-radius: 60px;
+            box-shadow: 50px;
+            margin: auto;
+            box-shadow: 0 5px 7px #afb7bf;
+
+            
+        }
+    }
+}
+
+@media (max-width: 768px) {
+
+    .zmones{
+        flex-direction: row;
+        div{
+            width: 100%;
+        }
+    }
+    .veidai{
+        flex-direction: row;
+
+    }
+
+}

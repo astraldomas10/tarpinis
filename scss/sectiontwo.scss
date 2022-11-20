@@ -1,0 +1,53 @@
+.trys{
+    padding: 80px;
+    text-align: center;
+    background-color:#f8f9fa;
+    color: black;
+    p{
+        padding: 5px;
+        color: #808285;
+
+    }
+
+    .fully{
+      width: 260px;
+      margin: 50px;
+      display: inline-block;
+      text-align: center;
+      i {
+        color:#007bff;
+        padding: 20px;
+      }
+    }
+    .bootstrap{
+      width: 260px;
+      margin: 50px;
+      display: inline-block;
+      text-align: center;
+      i {
+        color:#007bff;
+        padding: 20px;
+      }
+    }
+    .easy{
+      width: 260px;
+      margin: 50px;
+      display: inline-block;
+      text-align: center;
+      i {
+        color:#007bff;
+        padding: 20px;
+      }
+    }
+    
+  }
+
+  @media (max-width: 768px) {
+
+    .trys{
+      text-align: center;
+      margin: auto;
+      padding: 0;
+    }
+
+  }
